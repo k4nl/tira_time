@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "tira_time",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
