@@ -37,8 +37,8 @@ export default class Organize {
   }
 
   private constructClass() {
-    if (!this.data) return;
     const team = { ...this.default };
+    if (!this.data) return team;
     this.data.forEach((player: IPlayer) => {
       if (player.captain) {
         team.total_captains++;
